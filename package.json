@@ -1,6 +1,6 @@
 {
-  "name": "vyzor",
-  "version": "0.0.0",
+  "name": "edu360plus.adminui",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -25,15 +25,12 @@
     "@angular/router": "^20.2.1",
     "@ng-bootstrap/ng-bootstrap": "^19.0.1",
     "@ng-select/ng-select": "^20.1.0",
-
     "@tsparticles/angular": "^3.0.0",
     "angularx-flatpickr": "^8.1.0",
     "apexcharts": "^5.3.3",
-
     "date-fns": "^4.1.0",
     "moment": "^2.30.1",
     "ng-apexcharts": "^2.0.0",
-
     "ngx-chips": "^3.0.0",
     "ngx-cleave-directive": "^2.1.0",
     "ngx-color-picker": "^20.1.0",

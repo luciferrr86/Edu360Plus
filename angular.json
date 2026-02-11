@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "vyzor": {
+    "edu360plus.adminui": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,18 +17,10 @@
         "build": {
           "builder": "@angular/build:application",
           "options": {
-            "polyfills": [
-                "@angular/localize/init"
-            ],
-            "allowedCommonJsDependencies": [
-              "apexcharts",
-              "quill-delta"
-
-            ],
+            "polyfills": ["@angular/localize/init"],
+            "allowedCommonJsDependencies": ["apexcharts", "quill-delta"],
             "stylePreprocessorOptions": {
-              "includePaths": [
-                "node_modules"
-              ]
+              "includePaths": ["node_modules"]
             },
             "outputPath": {
               "base": "preview"
@@ -42,9 +34,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ]
+            "styles": ["src/styles.scss"]
           },
           "configurations": {
             "production": {
@@ -56,7 +46,7 @@
                 },
                 {
                   "type": "anyComponentStyle",
-                 "maximumWarning": "5mb",
+                  "maximumWarning": "5mb",
                   "maximumError": "5mb"
                 }
               ],
@@ -75,10 +65,10 @@
           "builder": "@angular/build:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "vyzor:build:production"
+              "buildTarget": "edu360plus.adminui:build:production"
             },
             "development": {
-              "buildTarget": "vyzor:build:development"
+              "buildTarget": "edu360plus.adminui:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -97,9 +87,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ]
+            "styles": ["src/styles.scss"]
           }
         }
       }
